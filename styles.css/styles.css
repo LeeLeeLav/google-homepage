@@ -1,0 +1,91 @@
+body {
+    font-family: Arial;
+    color: black;
+}
+
+.siteHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    background-color: white;
+}
+.siteHeader__section {
+    display: flex;
+    align-items: center;
+}
+.siteHeader__item {
+    padding: 5px 15px;
+    font-size: 10px;
+}
+.siteHeader__item + .siteHeader__item {
+    margin-left: 5px;
+}
+.siteHeaderButton {
+    cursor: pointer;
+    color:black;
+}  
+button {
+  background-color: blue;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.searchbar {
+  width: 400px;
+  height: 30px;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+  }
+.searchbar input {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.navbar-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+  overflow: hidden;
+  position: fixed;
+  margin-top: auto 1px solid gray;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+}
+.navbar-footer ul {
+  list-style-type: none;
+}
+.navbar-footer li {
+font-size: 10px;
+display: inline;
+}
+.navbar-footer a {
+  float: left;
+  display: block;
+  text-align: start;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;  
